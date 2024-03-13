@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+#define OPTION 3
+
+int main() {
+#if OPTION == 1
+    printf("Option 1 selected.\n");
+#elif OPTION == 2
+    printf("Option 2 selected.\n");
+#elif OPTION == 3
+    printf("Option 3 selected.\n");
+#else
+    printf("Invalid option.\n");
+#endif
+
+    return 0;
+}
+//Option 3 selected.
