@@ -24,3 +24,13 @@ int main() {
         nst--;
         printf("\n");
     }
+/*
+enter no of lines:4
+*
+**
+***
+****
+ ***
+  **
+   *
+*/
